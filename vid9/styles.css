@@ -1,0 +1,9 @@
+html {
+    background-color: #444;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+}

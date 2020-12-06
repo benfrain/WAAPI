@@ -1,0 +1,70 @@
+html {
+    background-color: #333;
+    color: #ddd;
+    font-family: sans-serif;
+}
+
+.ani-Main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.can-Canvas {
+    width: 800px;
+    height: 450px;
+    border: 1px solid #444;
+    background-color: #222;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ani-Controls {
+    display: flex;
+}
+
+.ani-Btn {
+    appearance: none;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    height: 40px;
+    display: inline-flex;
+    padding: 0 20px;
+    align-items: center;
+    background-color: transparent;
+    transition: all 0.2s;
+    color: #f0f0f0;
+}
+
+.ani-Btn + .ani-Btn {
+    margin-left: 10px;
+}
+
+.ani-Btn:focus {
+    border: 1px solid #f0f0f0;
+    outline: none;
+}
+
+.ani-Btn:active {
+    border: 1px solid #fff;
+}
+
+.ani-Btn[disabled] {
+    border: 1px solid #444;
+    color: #444;
+}
+
+.ani-SceneReadOut {
+    margin-left: auto;
+    align-self: center;
+}
+
+aside {
+    padding: 20px 0;
+}
+
+aside a {
+    color: #aaa;
+    display: flex;
+    padding: 4px 0;
+}

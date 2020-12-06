@@ -1,0 +1,10 @@
+html {
+    background-color: #e4e4e4;
+    --duration: 1000ms;
+}
+
+.thing {
+    width: 100px;
+    height: 100px;
+    background-color: #f90;
+}

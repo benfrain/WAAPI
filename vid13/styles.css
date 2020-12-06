@@ -1,0 +1,12 @@
+html {
+    background-color: #444;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    border: 8px solid #ccc;
+    border-right-color: #f90;
+    border-radius: 50%;
+    margin: 30px;
+}
